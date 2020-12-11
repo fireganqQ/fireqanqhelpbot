@@ -1,0 +1,84 @@
+
+{
+  "logo": "https://i.hizliresim.com/VuMLF7.jpg",
+  "name": "FireqanQHelpBot",
+  "description": "by coder ==> t.me/fireganqQ!",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/fireganqQ/fireqanqhelpbot",
+  "env": {
+    "ENV": {
+      "description": "Bunu HERHANGİ BİR ŞEY olarak ayarlamak, ortam değişkenlerini etkinleştirir",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Bir dizge olarak bot jetonunuz.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Sahip kimliğinizden oluşan bir tam sayı",
+      "value": "1340915968"
+    },
+    "OWNER_USERNAME": {
+      "description": "Kullanıcı adınızı",
+      "value": "fireganqQ"
+    },
+    "WEBHOOK": {
+      "description": "Bunu HERHANGİ BİR ŞEY olarak ayarlamak, ortam modu mesajlarındayken web kancalarını etkinleştirir.",
+      "value": "ANYTHING"
+    },
+    "URL": {
+      "description": "Şuna benzer Heroku Uygulama URL'si",
+      "value": "https://<appname>.herokuapp.com/"
+    },
+    "MESSAGE_DUMP": {
+      "description": "isteğe bağlı: kişilerin eski mesajlarını silmelerini önlemek için yanıtladığınız kayıtlı mesajların saklandığı bir sohbet",
+      "value": "-411734258"
+    },
+    "SUDO_USERS": {
+      "description": "",
+      "value": "1340915968"
+    },
+    "SUPPORT_USERS": {
+      "description": "Destek kullanıcıları olarak kabul edilmesi gereken boşlukla ayrılmış user_ids listesi (gban / ungban olabilir, başka hiçbir şey olamaz)",
+      "value": "1340915968"
+    },
+    "WHITELIST_USERS": {
+      "description": "Beyaz listede olduğu düşünülmesi gereken, boşlukla ayrılmış user_ids listesi - yasaklanamazlar.",
+      "value": "1340915968"
+    },
+    "PORT": {
+      "description": "Web kancalarınız için kullanılacak bağlantı noktası",
+      "value": "8443"
+    },
+    "DEL_CMDS": {
+      "description": "Bu komutu kullanma hakkına sahip olmayan kullanıcılardan komutların silinip silinmeyeceği",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": ".",
+      "value": "True"
+    },
+    "ALLOW_EXCL": {
+      "description": "Ünlem işareti kullanımına izin verilip verilmeyeceği! / yanı sıra komutlar için.",
+      "value": "True"
+    },
+    "BAN_STICKER": {
+      "description": "İnsanları yasaklarken hangi çıkartmanın kullanılacağı. File_id almak için https://telegram.dog/ShowJsonBot kullanın",
+      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }]
+    
+}
