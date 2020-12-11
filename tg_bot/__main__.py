@@ -275,7 +275,7 @@ def send_settings(chat_id, user_id, user=False):
                                         reply_markup=InlineKeyboardMarkup(
                                             paginate_modules(0, CHAT_SETTINGS, "stngs", chat=chat_id)))
         else:
-            dispatcher.bot.send_message(user_id, "Görünüşe göre herhangi bir sohbet ayarı yok :'(\"
+            dispatcher.bot.send_message(user_id, "Görünüşe göre herhangi bir sohbet ayarı yok :'("
                                                  "Mevcut ayarlarını bulmak için bunu yönetici olduğunuz bir grup sohbetinde gönderin!",
                                         parse_mode=ParseMode.MARKDOWN)
 
